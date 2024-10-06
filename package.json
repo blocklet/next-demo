@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "clean": "rm -rf .next && rm -rf .blocklet",
     "build": "next build",
-    "start": "next start",
+    "bundle": "npm run clean && npm run build && bn bundle --no-deps --create-release --external=*",
     "lint": "next lint"
   },
   "dependencies": {

@@ -1,0 +1,42 @@
+name: z2qa72hNwqEw43g2VFNLab2Bymk4LwG7AiBhX
+title: Next.js Blocklet
+description: A demo blocklet for Next.js
+group: dapp
+main: index.js
+author:
+  name: wangshijun
+specVersion: 1.2.8
+version: 1.0.0
+files:
+  - .next
+  - index.js
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+did: z2qa72hNwqEw43g2VFNLab2Bymk4LwG7AiBhX
+scripts:
+  dev: npm run dev
+logo: logo.png
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: '>=1.7.0'
+  os: '*'
+  cpu: '*'
+  nodejs: '*'
+environments: []
+capabilities: {}
+screenshots: []
+components: []
